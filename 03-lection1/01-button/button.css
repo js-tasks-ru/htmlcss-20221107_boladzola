@@ -1,58 +1,30 @@
-/* Стилизация кнопки */
-.button_primary {
+.btn_primary {
+    height: 48px;
+    border-radius: 8px;
     background: #4263EB;
-    border-radius: 8px;
-    width: 189px;
-    Height: 48px;
+    border: 0px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
     color: #FFFFFF;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 19px;
-    text-align: center;
-    border: 0px;
-}
-
-.button_primary:hover {
-    background: #2342C0;
+  }
+  
+  .btn_primary:hover {
+    background: #2342C0;;
+  }
+  
+  .btn_primary:disabled {
+    opacity: 0.5;
+    pointer-events: none;
+  }
+  
+  .btn_Secondary {
+    height: 48px;
     border-radius: 8px;
-    width: 189px;
-    Height: 48px;
-    color: #FFFFFF;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 19px;
-    text-align: center;
-    border: 0px;
-}
-
-.button_primary:disabled {
-    background: #4263EB;
-    border-radius: 8px;
-    Opacity: 50%;
-    Width: 189px;
-    Height: 48px;
-    color: rgba(255, 255, 255, 0.5);
-    border: 0px;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 19px;
-    text-align: center;
-}
-
-
-
-.button_secondary {
     background: #7048E8;
-    border-radius: 8px;
-    Width: 189px;
-    Height: 48px;
-    color: #FFFFFF;
     border: 0px;
     font-family: 'Roboto';
     font-style: normal;
@@ -60,46 +32,22 @@
     font-size: 16px;
     line-height: 19px;
     text-align: center;
-}
-
-.button_secondary:hover {
+    color: #FFFFFF;  
+  }
+  
+  .btn_Secondary:hover {
     background: #5028C6;
+  }
+  
+  .btn_Secondary:disabled {
+    opacity: 0.5;
+    pointer-events: none;
+  }
+  
+  .btn_alternate {
+    height: 48px;
     border-radius: 8px;
-    Width: 189px;
-    Height: 48px;
-    color: #FFFFFF;
-    border: 0px;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 19px;
-    text-align: center;
-}
-
-.button_secondary:disabled {
-    background: #7048E8;
-    opacity: 50%;
-    border-radius: 8px;
-    Width: 189px;
-    Height: 48px;
-    color: rgba(255, 255, 255, 0.5);
-    border: 0px;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 19px;
-    text-align: center;
-}
-
-.button_Alternate {
-    
-    border-radius: 8px;
-    background: #FFFFFF;
-    Width: 189px;
-    Height: 48px;
-    color: #495057;
+    background: #FFF;
     border: 1px solid #ACB5BD;
     font-family: 'Roboto';
     font-style: normal;
@@ -107,39 +55,15 @@
     font-size: 16px;
     line-height: 19px;
     text-align: center;
-
-}
-
-.button_Alternate:hover {
-    
-    border-radius: 8px;
-    background: #FFFFFF;
-    Width: 189px;
-    Height: 48px;
-    color: #495057;
+    color: rgba (73, 80, 87, 1);  
+  }
+  
+  .btn_alternate:hover {
+    background: #FFF;
     border: 1px solid #212429;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 19px;
-    text-align: center;
-
-}
-
-.button_Alternate:disabled {
-    background: #FFFFFF;
-    border: 1px solid rgba(172, 181, 189, 0.5);
-    border-radius: 8px;
-    Width: 189px;
-    Height: 48px;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 19px;
-    text-align: center;
-    color: rgba(73, 80, 87, 0.5);
-}
-
-
+  }
+  
+  .btn_alternate:disabled {
+    opacity: 0.5;
+    pointer-events: none;
+  }
