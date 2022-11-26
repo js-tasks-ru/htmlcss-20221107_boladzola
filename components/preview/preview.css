@@ -1,0 +1,17 @@
+.preview {
+    background: #F9FAFC;
+    padding: 32px 25px;
+}
+
+.preview__cards {
+    margin: -15px;
+    display: flex;
+
+
+}
+
+.preview__card {
+    margin: 15px;
+    font-size: 0px;
+
+}

@@ -1,4 +1,11 @@
 @import '../fonts/fonts.css';
+@import '../../components/page/page.css';
+@import '../../components/header/header.css';
+@import '../../components/footer/footer.css';
+@import '../../components/preview/preview.css';
+@import '../../components/container/container.css';
+@import '../../components/card/card.css';
+
 
 :root {
     --white: #ffffff;
@@ -22,3 +29,73 @@
 * {
     font-family: 'Roboto', sans-serif;
 }
+
+.btn_primary {
+    height: 48px;
+    border-radius: 8px;
+    background: #4263EB;
+    border: 0px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #FFFFFF;
+  }
+  
+  .btn_primary:hover {
+    background: #2342C0;;
+  }
+  
+  .btn_primary:disabled {
+    opacity: 0.5;
+    pointer-events: none;
+  }
+  
+  .btn_Secondary {
+    height: 48px;
+    border-radius: 8px;
+    background: #7048E8;
+    border: 0px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #FFFFFF;  
+  }
+  
+  .btn_Secondary:hover {
+    background: #5028C6;
+  }
+  
+  .btn_Secondary:disabled {
+    opacity: 0.5;
+    pointer-events: none;
+  }
+  
+  .btn_alternate {
+    height: 48px;
+    border-radius: 8px;
+    background: #FFF;
+    border: 1px solid #ACB5BD;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: rgba (73, 80, 87, 1);  
+  }
+  
+  .btn_alternate:hover {
+    background: #FFF;
+    border: 1px solid #212429;
+  }
+  
+  .btn_alternate:disabled {
+    opacity: 0.5;
+    pointer-events: none;
+  }
