@@ -22,5 +22,5 @@
   color: #212429;    
 }
 .accordion__summary::-webkit-details-marker {  
-    display: none;
+  display: none;
 }
