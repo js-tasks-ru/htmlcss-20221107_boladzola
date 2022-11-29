@@ -1,0 +1,55 @@
+.container {
+  Width: 354px;
+  Height: 185px;
+  border: 1px solid #ACB5BD;
+  border-radius: 8px;
+  display: flex;
+}
+
+.container__item {
+  margin: 24px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: 1px;
+
+}
+.rectangle {
+background: #4263EB;
+Width: 9px;
+gap: 1px;
+}
+
+.rectangle50 {
+Height: 50px;
+}
+
+.rectangle35 {
+  Height: 35px;
+ 
+}
+.rectangle22 {
+  Height: 22px;
+  
+}
+.rectangle39 {
+  Height: 39px;
+
+}
+.rectangle30 {
+  Height: 30px;
+
+}
+.rectangle11 {
+  Height: 11px;
+
+}
+.rectangle45 {
+  Height: 45px;
+
+}
+
+.rectangle17 {
+  Height: 17px;
+}
