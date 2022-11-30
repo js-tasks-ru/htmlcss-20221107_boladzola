@@ -1,0 +1,75 @@
+.container {
+    Width: 354px;
+    Height: 185px;
+    border: 1px solid #ACB5BD;
+    border-radius: 8px;
+    display: flex;
+
+  }
+
+  .flex_item {
+    margin: 24px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-start;
+    gap: 1px;
+
+  }
+  .rectangle50 {
+    background: #4263EB;
+    Width: 9px;
+    Height: 50px;
+    gap: 1px;
+
+  }
+
+  .rectangle35 {
+    background: #4263EB;
+    Width: 9px;
+    Height: 35px;
+    gap: 1px;
+
+  }
+  .rectangle22 {
+    background: #4263EB;
+    Width: 9px;
+    Height: 22px;
+    gap: 1px;
+
+  }
+  .rectangle39 {
+    background: #4263EB;
+    Width: 9px;
+    Height: 39px;
+    gap: 1px;
+
+  }
+  .rectangle30 {
+    background: #4263EB;
+    Width: 9px;
+    Height: 30px;
+    gap: 1px;
+
+  }
+  .rectangle11 {
+    background: #4263EB;
+    Width: 9px;
+    Height: 11px;
+    gap: 1px;
+
+  }
+  .rectangle45 {
+    background: #4263EB;
+    Width: 9px;
+    Height: 45px;
+    gap: 1px;
+
+  }
+
+  .rectangle17 {
+    background: #4263EB;
+    Width: 9px;
+    Height: 17px;
+    gap: 1px;
+  }
