@@ -1,62 +1,62 @@
 .container {
-    display:flex;
-    flex-direction: column;
-    box-sizing: border-box;
-    width: 579px;
-    height: 192px;
-    background: #FFFFFF;
-    border: 1px solid #ACB5BD;
-    border-radius: 8px;
-    padding: 24px;
-    gap: 24px;
-  
-    }
-  
-  .skeleton {
-    display: flex;
-    flex-direction: column;
-    }
-  
-  .skeleton__row {
-    display: flex;
-    gap: 16px;
-   }
-  
-  .skeleton__column {
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
-    align-self: center;
+  display:flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  width: 579px;
+  height: 192px;
+  background: #FFFFFF;
+  border: 1px solid #ACB5BD;
+  border-radius: 8px;
+  padding: 24px;
+  gap: 24px;
+
   }
-  
-  
-  .circle {
-    width: 64px;
-    height: 64px;
-    background: #DDE2E5;
-    border-radius: 50px;
-    }
-  
-  .rectangle1 {
-    Width: 172px;
-    Height: 20px;
-    background: #DDE2E5;
+
+.skeleton {
+  display: flex;
+  flex-direction: column;
   }
-  
-  .rectangle2 {
-    Width: 257px;
-    Height: 20px;
-    background: #DDE2E5;
+
+.skeleton__row {
+  display: flex;
+  gap: 16px;
+ }
+
+.skeleton__column {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-self: center;
+}
+
+
+.circle {
+  width: 64px;
+  height: 64px;
+  background: #DDE2E5;
+  border-radius: 50px;
   }
-  
-  .rectangle3 {
-    Width: 515px;
-    Height: 20px;
-    background: #DDE2E5;
-  }
-  
-  .rectangle4 {
-    Width: 475px;
-    Height: 20px;
-    background: #DDE2E5;
-  }
+
+.rectangle1 {
+  Width: 172px;
+  Height: 20px;
+  background: linear-gradient(92.51deg, #DDE2E5 6.44%, #E2E6E8 38.47%, #F3F5F5 56.48%, #E3E7EA 77.5%, #DDE2E5 102.52%);
+}
+
+.rectangle2 {
+  Width: 257px;
+  Height: 20px;
+  background: linear-gradient(92.51deg, #DDE2E5 6.44%, #E2E6E8 38.47%, #F3F5F5 56.48%, #E3E7EA 77.5%, #DDE2E5 102.52%);
+}
+
+.rectangle3 {
+  Width: 515px;
+  Height: 20px;
+  background: linear-gradient(92.51deg, #DDE2E5 6.44%, #E2E6E8 38.47%, #F3F5F5 56.48%, #E3E7EA 77.5%, #DDE2E5 102.52%);
+}
+
+.rectangle4 {
+  Width: 475px;
+  Height: 20px;
+  background: linear-gradient(92.51deg, #DDE2E5 6.44%, #E2E6E8 38.47%, #F3F5F5 56.48%, #E3E7EA 77.5%, #DDE2E5 102.52%);
+}
